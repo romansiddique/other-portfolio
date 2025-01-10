@@ -140,6 +140,11 @@ nav ul li a{
 .skill{
     padding: 30px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skill:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 1s;
 }
 .skill-title{
     font-weight: 700;
@@ -151,4 +156,36 @@ nav ul li a{
 .skill-first-para{
     font-size: 11px;
     padding-bottom: 15px;
+}
+
+/* resume styles */
+.resume{
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    padding: 20px;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+.experience-des ,  .education-des{
+    font-size: 13px;
+}
+.resume-title{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 25px;
+}
+.education-title , .experience-title{
+    font-size: 16px;
+}
+.education-subtitle , .experience-subtitle{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.download-cv-button{
+    text-align: center;
+    margin-top: 10px;
+}
+.resume hr{
+    margin: 25px 5px;
 }
